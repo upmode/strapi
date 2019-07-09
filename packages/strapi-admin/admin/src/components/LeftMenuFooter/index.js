@@ -14,7 +14,7 @@ import styles from './styles.scss';
 import messages from './messages.json';
 defineMessages(messages);
 
-function LeftMenuFooter({ version, ...rest }) {
+function LeftMenuFooter({ ...rest }) {
   const staticLinks = [
     {
       icon: 'book',
